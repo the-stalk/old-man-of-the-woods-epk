@@ -401,6 +401,10 @@ h3 { font-size: var(--fs-h3) }
         background-size: cover;
     }
 
+    #locket1-link, #locket2-link {
+        display: none;
+    }
+
     .header {
         grid-template-columns: 1fr;
     }
@@ -449,6 +453,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .link-img {
+    width: 100%;
     min-width: 400px;
 }
 
@@ -491,6 +496,7 @@ h3 { font-size: var(--fs-h3) }
 
     .link-img {
         min-width: 100%;
+        max-width: 400px;
     }
 
     #linkitem1 {
@@ -671,8 +677,16 @@ h3 { font-size: var(--fs-h3) }
         grid-column: 1 !important;
     }
 
+    .album-iframe iframe {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 500px;
+    }
+
     #dissolve-video {
-        width: 100%;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 250px;
     }
 }
 
