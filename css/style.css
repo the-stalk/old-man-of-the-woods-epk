@@ -519,6 +519,7 @@ h3 { font-size: var(--fs-h3) }
         grid-row: 1;
         grid-column: 1;
         z-index: 1;
+        padding-bottom: 1rem;
         text-align: center;
         align-self: center;
     }
@@ -604,6 +605,9 @@ h3 { font-size: var(--fs-h3) }
     background: url(../img/lofi-sharks.gif) no-repeat center center;
     background-size: cover;
   }
+
+  #peekaboo {
+    background: url(../img/doll_peekaboo_mobile.gif) no-repeat center center;
 }
 
 /* Albums */
@@ -687,6 +691,16 @@ h3 { font-size: var(--fs-h3) }
         width: 100% !important;
         height: auto !important;
         min-height: 250px;
+    }
+
+    #ghost-video {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 250px;
+    }
+
+    #sharks-video {
+        display: none;
     }
 }
 
