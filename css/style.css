@@ -607,7 +607,8 @@ h3 { font-size: var(--fs-h3) }
   }
 
   #peekaboo {
-    background: url(../img/doll_peekaboo_mobile.gif) no-repeat center center;
+      background: url(../img/doll_peekaboo_mobile.gif) no-repeat center center;
+  }
 }
 
 /* Albums */
@@ -1075,7 +1076,7 @@ h3 { font-size: var(--fs-h3) }
     align-self: center;
     color: black;
     padding: 10px;
-    background-image: url(../img/cloud-background.jpeg);
+    /*background-image: url(../img/cloud-background.jpeg);*/
     background-size: cover;
     background-position: top;
     opacity: 0.9;
