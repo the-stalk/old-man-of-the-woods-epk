@@ -2,9 +2,14 @@
 <html>
  <head>
   <script>
-   if (window.innerWidth <= 600 && !window.location.pathname.includes("index.mobile.html")) {
-     window.location.href = "index.mobile.html";
-   }
+    document.addEventListener("DOMContentLoaded", function() {
+      // if the viewport is wider than mobile max, go back to the desktop page
+      if (window.matchMedia("(min-width: 601px)").matches
+          && !location.pathname.includes("index.html")) {
+        // use replace() so the back-button doesn’t bounce you right back
+        location.replace("index.html");
+      }
+    });
   </script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet"/>
   <meta charset="utf-8"/>

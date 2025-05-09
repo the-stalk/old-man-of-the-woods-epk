@@ -2,9 +2,13 @@
 <html lang="en">
     <head>
         <script>
-          if (window.innerWidth <= 600 && !window.location.pathname.includes("index.mobile.html")) {
-            window.location.href = "index.mobile.html";
+          document.addEventListener("DOMContentLoaded", function() {
+          if (window.matchMedia("(max-width: 600px)").matches
+              && !location.pathname.includes("index.mobile.html")) {
+            // use replace() so it doesn’t pollute back-button history
+            location.replace("index.mobile.html");
           }
+        });
         </script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta charset="UTF-8">
