@@ -524,6 +524,10 @@ h3 { font-size: var(--fs-h3) }
         align-self: center;
         align-items: center;
     }
+
+    .links a {
+        font-size: 1.5em;
+    }
 }
 
 /* Bio */
