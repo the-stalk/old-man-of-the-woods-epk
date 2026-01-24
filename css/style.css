@@ -708,6 +708,12 @@ h3 { font-size: var(--fs-h3) }
     #sharks-video {
         display: none;
     }
+
+    #cape-perpetua-video {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 500px;
+    }
 }
 
 /* Photos */
