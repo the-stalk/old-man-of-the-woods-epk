@@ -705,6 +705,12 @@ h3 { font-size: var(--fs-h3) }
         min-height: 250px;
     }
 
+    #incantation-video {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 250px;
+    }
+
     #cape-perpetua-video {
         width: 100% !important;
         height: auto !important;
