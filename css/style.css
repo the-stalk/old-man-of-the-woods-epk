@@ -716,6 +716,12 @@ h3 { font-size: var(--fs-h3) }
         height: auto !important;
         min-height: 500px;
     }
+
+    #sharks-video {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 250px;
+    }
 }
 
 /* Photos */
