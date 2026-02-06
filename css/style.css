@@ -114,7 +114,13 @@ h2 {
     padding-bottom: 15px !important;
     padding-top: 15px;
 }
-h3 { font-size: var(--fs-h3) }
+h3 {
+    font-size: 0.9rem;
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 0;
+    color: #e8b7b7;
+    font-style: italic;
+}
 
 
 /* Social icons */
@@ -718,6 +724,12 @@ h3 { font-size: var(--fs-h3) }
     }
 
     #sharks-video {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 250px;
+    }
+
+    #amber-video {
         width: 100% !important;
         height: auto !important;
         min-height: 250px;
